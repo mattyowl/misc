@@ -265,9 +265,18 @@ def calc_y0_from_scaling_params(z, M500c, scalingRelationDict):
 def makeScalingRelationPlot(y0Func, plotTitle, outFileName, plotRelativeToSelfSimilar = True, 
                             scalingRelation_zs = [0.0, 0.5, 1.0, 1.5], scalingRelation_colors = ['b', 'g', 'r', 'm'],
                             scalingRelationDict = None):
-    """Makes a plot of the scal
+    """Makes a plot of the scaling relation at various redshifts.
     
-    y0Func (function): The function to use to calculate y0 for a given mass, redshift (e.g., calc_y0_B12, calc_y0_A10).
+    Args:
+        y0Func (function): The function to use to calculate y0 for a given mass, redshift (e.g., calc_y0_B12, 
+            calc_y0_A10, calc_y0_from_scaling_params).
+        plotTitle (str): Plot title.
+        outFileName (str): Path where the plot will be written.
+        plotRelativeToSelfSimilar (bool): If True, y0 is multiplied by E(z)^{-2}.
+        scalingRelation_zs (list): List of redshifts at which to calculate scaling relations.
+        scalingRelation_colors (list): Corresponding list of colors plotted for each redshift.
+        scalingRelationDict (dict): Only used if yFunc == calc_y0_from_scaling_params. Dictionary of scaling
+            relation parameters with names as used in nemo config files.
     
     """
 
