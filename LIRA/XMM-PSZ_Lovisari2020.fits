@@ -1,0 +1,385 @@
+SIMPLE  =                    T / Standard FITS Format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    0 / No Image --- just extension(s)                 EXTEND  =                    T / There are standard extensions                  ORIGIN  = 'xml2fits_v1.95'     / Converted from XML-Astrores to FITS                                     e-mail: question@simbad.u-strasbg.fr                   COMMENT  ARG='-rm'                                                              LONGSTRN= 'OGIP 1.0'           / Long string convention (&/CONTINUE) may be usedDATE    = '2021-11-03'         / Written on 2021-11-03:12:30:37 (GMT)                                        by: www-data@vizier.astro.unistra.fr                        **********************************************************                          EXCERPT from catalogues stored in VizieR (CDS)                                             with the following conditions:                                   **********************************************************                                                                                                      VizieR Astronomical Server vizier.cds.unistra.fr                                Date: 2021-11-03T12:30:37 [V1.99+ (14-Oct-2013)]                                Explanations and Statistics of UCDs: See LINK below                             In case of problem, please report to: cds-question@unistra.fr                                                                                          INFO    = 'votable-version=1.99+ (14-Oct-2013)' / #                             INFO    = '-ref=VIZ618280b2388b7b' / #                                          INFO    = '-out.max=unlimited' / #                                              Q-PARAMS=                   51 / Number of queryParameters (followed by list)            -oc.form=dec                                                                    -out.max=unlimited                                                              #out.form=FITS (binary) Table                                                   -out.all=2                                                                      -nav=cat:J/ApJ/892/102&tab:{J/ApJ/892/102/table3}&key:source=J/ApJ/892/         102&HTTPPRM:&                                                                   -c.eq=J2000                                                                     -c.r= 2                                                                         -c.u=arcmin                                                                     -c.geom=r                                                                       -source=J/ApJ/892/102/table3                                                    -order=I                                                                        -out=PLCKESZ                                                                    -out=f_PLCKESZ                                                                  -out=z                                                                          -out=M500                                                                       -out=E_M500                                                                     -out=e_M500                                                                     -out=Mg500                                                                      -out=E_Mg500                                                                    -out=e_Mg500                                                                    -out=kT                                                                         -out.all=2                                                                      -out=E_kT                                                                       -out=e_kT                                                                       -out=kTexc                                                                      -out=E_kTexc                                                                    -out=e_kTexc                                                                    -out=LX                                                                         -out=E_LX                                                                       -out=e_LX                                                                       -out=LXexc                                                                      -out=E_LXexc                                                                    -out=e_LXexc                                                                    -out=Lbol                                                                       -out=E_Lbol                                                                     -out.all=2                                                                      -out=e_Lbol                                                                     -out=Lbolexc                                                                    -out=E_Lbolexc                                                                  -out=e_Lbolexc                                                                  -out=NT                                                                         -out=fT                                                                         -out=Nsb                                                                        -out=fsb                                                                        -out=Simbad                                                                     Simbad=Simbad                                                                   -out=NED                                                                        NED=NED                                                                         -out=_RA                                                                        -out=_DE                                                                        -out.all=2                                                                      #                                                                               #RESOURCE=yCat_18920102                                                         #Name: J/ApJ/892/102                                                            #Title: XMM X-ray data of Planck ESZ galaxy clusters (Lovisari+, 2020)          #Coosys J2000: eq_FK5 J2000                                                                                                                            END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / Binary Table Extension                         BITPIX  =                    8 / binary data                                    NAXIS   =                    2 / Simple 2-D matrix                              NAXIS1  =                  143 / Number of bytes per record                     NAXIS2  =                  120 / Number of records                              PCOUNT  =                    0 / Get rid of random parameters                   GCOUNT  =                    1 / Only one group (isn't it obvious?)             TFIELDS =                   35 / Number of data fields (columns)                CDS-CAT = 'J/ApJ/892/102'      / Catalogue designation in CDS nomenclature               XMM X-ray data of Planck ESZ galaxy clusters (Lovisari+, 2020)         EXTNAME = 'J_ApJ_892_102_table3' / Identification of the table                  CDS-NAME= 'J/ApJ/892/102/table3' / Table name in METAtab                                 Cluster properties                                                     UCD__1  = 'meta.id;meta.main'  / ................................byte#0         TDISP1  = 'A13     '           / Display Fortran Format                         TFORM1  = '13A     '           / Ascii string                                   TTYPE1  = 'PLCKESZ '           / Planck identifier GLLL.ll+BB.bb (1) (link)     UCD__2  = 'stat.fit.param'     / ................................byte#13        TDISP2  = 'A1      '           / Display Fortran Format                         TFORM2  = 'A       '           / Ascii string                                   TTYPE2  = 'f_PLCKESZ'          / [*] * = not explained in the paper             UCD__3  = 'src.redshift'       / ................................byte#14        TDISP3  = 'F6.3    '           / Display Fortran Format                         TFORM3  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE3  = 'z       '           / [0.059/0.6] Cluster spectroscopic redshift     UCD__4  = 'phys.mass'          / ................................byte#18        TDISP4  = 'F5.2    '           / Display Fortran Format                         TFORM4  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE4  = 'M500    '           / [2.4/17.6] Total mass with R_500_              TUNIT4  = '10+14Msun'          / 10+14 solar mass                               UCD__5  = 'stat.error;stat.max' / ...............................byte#22        TDISP5  = 'F5.2    '           / Display Fortran Format                         TFORM5  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE5  = 'E_M500  '           / [0.04/6] Upper uncertainty in M500             TUNIT5  = '10+14Msun'          / 10+14 solar mass                               UCD__6  = 'stat.error'         / ................................byte#26        TDISP6  = 'F5.2    '           / Display Fortran Format                         TFORM6  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE6  = 'e_m500_lc'          / [0.03/5] Lower uncertainty in M500             TUNIT6  = '10+14Msun'          / 10+14 solar mass                               UCD__7  = 'phys.mass'          / ................................byte#30        TDISP7  = 'F5.2    '           / Display Fortran Format                         TFORM7  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE7  = 'Mg500   '           / [2.87/32] Gas mass with R_500_                 TUNIT7  = '10+13Msun'          / 10+13 solar mass                               UCD__8  = 'stat.error;stat.max' / ...............................byte#34        TDISP8  = 'F5.2    '           / Display Fortran Format                         TFORM8  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE8  = 'E_Mg500 '           / [0.03/3] Upper uncertainty in Mg500            TUNIT8  = '10+13Msun'          / 10+13 solar mass                               UCD__9  = 'stat.error'         / ................................byte#38        TDISP9  = 'F5.2    '           / Display Fortran Format                         TFORM9  = 'E       '           / 32-bit floating-point (simple precision)       TTYPE9  = 'e_mg500_lc'         / [0.03/6] Upper uncertainty in Mg500            TUNIT9  = '10+13Msun'          / 10+13 solar mass                               UCD__10 = 'phys.temperature;em.X-ray' / .........................byte#42        TDISP10 = 'F5.2    '           / Display Fortran Format                         TFORM10 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE10 = 'kT      '           / [1.67/14.4] Core-included cluster temperature  TUNIT10 = 'keV     '           / kiloelectron-Volt                              UCD__11 = 'stat.error;stat.max' / ...............................byte#46        TDISP11 = 'F5.2    '           / Display Fortran Format                         TFORM11 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE11 = 'E_kT    '           / [0.03/1.4] Upper uncertainty in kT             TUNIT11 = 'keV     '           / kiloelectron-Volt                              UCD__12 = 'stat.error;phys.energy' / ............................byte#50        TDISP12 = 'F5.2    '           / Display Fortran Format                         TFORM12 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE12 = 'e_kt_lc '           / [0.03/1.4] Lower uncertainty in kT             TUNIT12 = 'keV     '           / kiloelectron-Volt                              UCD__13 = 'phys.temperature;em.X-ray' / .........................byte#54        TDISP13 = 'F5.2    '           / Display Fortran Format                         TFORM13 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE13 = 'kTexc   '           / [1.4/15.1] Core-excluded cluster temperature   TUNIT13 = 'keV     '           / kiloelectron-Volt                              UCD__14 = 'stat.error;stat.max' / ...............................byte#58        TDISP14 = 'F5.2    '           / Display Fortran Format                         TFORM14 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE14 = 'E_kTexc '           / [0.04/1.6] Upper uncertainty in kTexc          TUNIT14 = 'keV     '           / kiloelectron-Volt                              UCD__15 = 'stat.error'         / ................................byte#62        TDISP15 = 'F5.2    '           / Display Fortran Format                         TFORM15 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE15 = 'e_ktexc_lc'         / [0.04/1.6] Lower uncertainty in kTexc          TUNIT15 = 'keV     '           / kiloelectron-Volt                              UCD__16 = 'phys.luminosity;em.X-ray' / ..........................byte#66        TDISP16 = 'F5.2    '           / Display Fortran Format                         TFORM16 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE16 = 'LX      '           / [1.28/27.1] Core-included cluster 0.1-2.4keV                                    luminosity; erg/s                              TUNIT16 = '10-7W   '           / 10-7 Watt                                      UCD__17 = 'stat.error;stat.max' / ...............................byte#70        TDISP17 = 'F5.2    '           / Display Fortran Format                         TFORM17 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE17 = 'E_LX    '           / [0.04/1.7] Upper uncertainty in LX             TUNIT17 = '10-7W   '           / 10-7 Watt                                      UCD__18 = 'stat.error'         / ................................byte#74        TDISP18 = 'F5.2    '           / Display Fortran Format                         TFORM18 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE18 = 'e_lx_lc '           / [0.04/1.7] Lower uncertainty in LX             TUNIT18 = '10-7W   '           / 10-7 Watt                                      UCD__19 = 'phys.luminosity;em.X-ray' / ..........................byte#78        TDISP19 = 'F5.2    '           / Display Fortran Format                         TFORM19 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE19 = 'LXexc   '           / [0.86/18] Core-excluded cluster 0.1-2.4keV                                      luminosity; erg/s                              TUNIT19 = '10-7W   '           / 10-7 Watt                                      UCD__20 = 'stat.error;stat.max' / ...............................byte#82        TDISP20 = 'F5.2    '           / Display Fortran Format                         TFORM20 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE20 = 'E_LXexc '           / [0.01/1.3] Upper uncertainty in LXexc          TUNIT20 = '10-7W   '           / 10-7 Watt                                      UCD__21 = 'stat.error'         / ................................byte#86        TDISP21 = 'F5.2    '           / Display Fortran Format                         TFORM21 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE21 = 'e_lxexc_lc'         / [0.01/1.3] Lower uncertainty in LXexc          TUNIT21 = '10-7W   '           / 10-7 Watt                                      UCD__22 = 'phys.luminosity'    / ................................byte#90        TDISP22 = 'F5.2    '           / Display Fortran Format                         TFORM22 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE22 = 'Lbol    '           / [2.6/87] Core-included cluster bolometric                                       (0.01-100keV) luminosity; erg/s                TUNIT22 = '10-7W   '           / 10-7 Watt                                      UCD__23 = 'stat.error;stat.max' / ...............................byte#94        TDISP23 = 'F5.2    '           / Display Fortran Format                         TFORM23 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE23 = 'E_Lbol  '           / [0.1/8] Upper uncertainty in Lbol              TUNIT23 = '10-7W   '           / 10-7 Watt                                      UCD__24 = 'stat.error'         / ................................byte#98        TDISP24 = 'F5.2    '           / Display Fortran Format                         TFORM24 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE24 = 'e_lbol_lc'          / [0.1/8] Lower uncertainty in Lbol              TUNIT24 = '10-7W   '           / 10-7 Watt                                      UCD__25 = 'phys.luminosity'    / ................................byte#102       TDISP25 = 'F5.2    '           / Display Fortran Format                         TFORM25 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE25 = 'Lbolexc '           / [1.87/61] Core-excluded cluster bolometric                                      (0.01-100keV) luminosity; in erg/s units       TUNIT25 = '10-7W   '           / 10-7 Watt                                      UCD__26 = 'stat.error;stat.max' / ...............................byte#106       TDISP26 = 'F5.2    '           / Display Fortran Format                         TFORM26 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE26 = 'E_Lbolexc'          / [0.01/4] Upper uncertainty in Lbolexc          TUNIT26 = '10-7W   '           / 10-7 Watt                                      UCD__27 = 'stat.error'         / ................................byte#110       TDISP27 = 'F5.2    '           / Display Fortran Format                         TFORM27 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE27 = 'e_lbolexc_lc'       / [0.01/4] Lower uncertainty in Lbolexc          TUNIT27 = '10-7W   '           / 10-7 Watt                                      UCD__28 = 'meta.number'        / ................................byte#114       TDISP28 = 'I2      '           / Display Fortran Format                         TFORM28 = 'I       '           / 16-bit (short) integer                         TTYPE28 = 'NT      '           / [1/33] Number of temperature profile bins      UCD__29 = 'stat.fit.param'     / ................................byte#116       TDISP29 = 'F5.2    '           / Display Fortran Format                         TFORM29 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE29 = 'fT      '           / [0.3/1.3] Fraction of R_500_ covered by                                         temperature profile                            UCD__30 = 'meta.number'        / ................................byte#120       TDISP30 = 'I3      '           / Display Fortran Format                         TFORM30 = 'I       '           / 16-bit (short) integer                         TTYPE30 = 'Nsb     '           / [4/372] Number of surface brightness profile                                    bins                                           UCD__31 = 'stat.fit.param'     / ................................byte#122       TDISP31 = 'F5.2    '           / Display Fortran Format                         TFORM31 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE31 = 'fsb     '           / [0.5/1.7] Fraction of R_500_ covered by surface                                 brightness profile                             UCD__32 = 'meta.ref.url'       / ................................byte#126       TDISP32 = 'A6      '           / Display Fortran Format                         TFORM32 = '6A      '           / Ascii string                                   TTYPE32 = 'Simbad  '           / Simbad column added by the CDS                 UCD__33 = 'meta.number'        / ................................byte#132       TDISP33 = 'A3      '           / Display Fortran Format                         TFORM33 = '3A      '           / Ascii string                                   TTYPE33 = 'NED     '           / NED column added by the CDS                    UCD__34 = 'pos.eq.ra;meta.main' / ...............................byte#135       TDISP34 = 'F7.3    '           / Display Fortran Format                         TFORM34 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE34 = '_RA     '           / Positions from Planck ESZ catalog (VIII/88)                                     (right ascension part)                         TUNIT34 = 'deg     '           / degree                                         UCD__35 = 'pos.eq.dec;meta.main' / ..............................byte#139       TDISP35 = 'F7.3    '           / Display Fortran Format                         TFORM35 = 'E       '           / 32-bit floating-point (simple precision)       TTYPE35 = '_DE     '           / Positions from Planck ESZ catalog (VIII/88)                                     (declination part)                             TUNIT35 = 'deg     '           / degree                                         END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             G000.44-41.83 >(õÃ@ Qì?ÌÍ>õÂ@Ó…>¸Qì>¨õÃ@»33>£×
+>£×
+@º=q>Ü(ö>Ü(ö@r\>€  >€  @8Qì>¸>¸AÂ?G®?G®@Ë…>ð£×>ð£× ?€   ?šáHSimbadNEDCž‘Â%MG002.74-56.18 >bN@ž¸R>Ü(ö>\)@´(ö>W
+=>\)@«…=õÂ=õÂ@¬zá>8Qì>8Qì@
+=>#×
+>#×
+@-p¤=\)=\)A\)>úáH>úáH@ÀõÃ>k…>k… 
+?p£× 1?Š=qSimbadNEDC§W!Â‘ìG003.90-59.41 >Ÿ¾@Þ{>B\>B\A
+ff=£×
+=£×
+@áë…>¸>¸@Î¸R>\)>\)@ä(ö>uÂ>uÂ@“…>.{>.{Azá?+…?+…A9ë…>Ü(ö>Ü(ö 
+?záH ??Š=qSimbadNEDC©O(Â'G006.70-35.54 =¶E¢@áH=#×
+<õÂ@ˆ£×=LÌÍ=£×
+@—
+==£×
+=£×
+@“×
+=¸Qì=¸Qì@(ö=¸Qì=¸Qì@¸=£×
+=£×
+@•p¤>€  >€  @~¸R>W
+=>W
+= ?‘ë… -?—
+=SimbadNEDCšXyÂ=VG006.78+30.46 >Oß;AŒzá>\)>Š=qB   >uÂ>aG®Aeë…=õÂ=õÂAp(ö>#×
+>#×
+A¾¸R>¸Qì>¸QìA„ff>¸>¸B­”{?Þ¸R?Þ¸RBq{?W
+=?W
+= ?¡G® «?Ï\)SimbadNEDCsó°ÀÄ;ÍG008.44-56.35 >“u@g
+==£×
+=\)@”zá=LÌÍ=#×
+@£×
+=£×
+=£×
+@¸=ÌÌÍ=ÌÌÍ@^{=õÂ=õÂ@×
+=£×
+=£×
+@ØõÃ>®{>®{@‘G®>aG®>aG® ?ŒÌÍ )?ž¸RSimbadNEDC§;0ÂêeG008.93-81.23 >/A&=q>uÂ>k…Az=q>¸>¸Azá=¸Qì=¸QìAáH=ÌÌÍ=ÌÌÍAQë…>ž¸R>ž¸RA…>.{>.{B(ö?šáH?šáHAØ¸R?333?333 ?xQì N?ƒ×
+SimbadNED@då`Áó:G021.09+33.25 >Ÿ¾@Ü(ö>LÌÍ>8QìA'33>£×
+>³33@È  >\)>\)AQì>ž¸R>ž¸RA€\>8Qì>8Qì@ÚáH=ÌÌÍ=ÌÌÍBQì?ÌÍ?ÌÍA„{>€  >€   
+?šáH V?ž¸RSimbadNEDCx-ô@²ÅmG036.72+14.92*>¥ã@¦¸R>£×
+>”záA\>”zá>\)@î{?(õÃ?(õÃ@Üzá?‚\?‚\@¿
+=>Š=q>Š=q@€  >.{>.{Ayp¤?Ž{?Ž{A&áH?5Â?5Â ?\ 	?^¸RSimbadNEDC‡‘yA ”FG039.85-39.98 >49X@qG®>ð£×>.{@ª=q>¸Qì>.{@¼zá>\)>\)@º=q>#×
+>#×
+@:=q=õÂ=õÂ@G®=ÌÌÍ=ÌÌÍ@ÑG®>£×
+>£×
+@¶{>\)>\) ?œ(ö G?·
+=SimbadNEDC ãaÁB²–G042.82+56.61 =“t¼@”ÌÍ>™š>¸@ÀQì=£×
+=\)@š\=\)=\)@™G®=¸Qì=¸Qì@K…=£×
+=£×
+@\)=LÌÍ=LÌÍ@×®>aG®>aG®@—®>\)>\) ?=p¤ *?aG®SimbadNEDCfœ=AÝ \G046.08+27.18 >Ç+@ÈQì?(ö>õÂAff>³33>™™š@½Â>™™š>™™š@´ÌÍ>”zá>”zá@ðQì>Ñë…>Ñë…@ÈQì>\)>\)AˆõÃ?¼(ö?¼(öAdzá?ŒÌÍ?ŒÌÍ ?Š=q ?•ÂSimbadNEDCƒuˆA¶×ÜG046.50-49.43 =®{@Á™š>\)>…¸@Ç®=¸Qì=£×
+@²áH=õÂ=õÂ@¦¸R>\)>\)@UÂ=õÂ=õÂ@ë…=\)=\)@þff>Ç®>Ç®@­Â>k…>k… ?+… :?@  SimbadNEDC¦IbÁB‡ýG049.20+30.86 >'ïž@»…>#×
+>#×
+@ÐQì=\)=\)@¯
+==£×
+=£×
+@ÈõÃ>.{>.{A33>8Qì>8Qì@u¸=uÂ=uÂA³®?=p¤?=p¤A=q>”zá>”zá ?}p¤ ?}p¤SimbadNEDC‚AÔéG049.33+44.38 =Æ§ð@uÂ>ë…>Â\@vff>8Qì>.{@œÌÍ>.{>.{@™™š>k…>k…?×
+==£×
+=£×
+?œ(ö=#×
+=#×
+@fff>k…>k…@(Qì>¸>¸ ?(ö ?Që…SimbadNEDCu!4Aï>wG049.66-49.50 =È´9@™ë…>W
+=>B\@¸=£×
+=£×
+@”zá=£×
+=£×
+@™ë…>\)>\)@\(ö=õÂ=õÂ?Þ¸R=LÌÍ=LÌÍ@èQì>¨õÃ>¨õÃ@jáH>™š>™š 
+?.{ $?.{SimbadNEDC¦ÒáÁ&E9G053.52+59.54 =çl‹@»×
+>LÌÍ>™š@àõÃ=ÌÌÍ=£×
+@Ò\>\)>\)@Éë…>#×
+>#×
+@‚\=áG®=áG®@E¸=#×
+=#×
+A×
+>ÌÌÍ>ÌÌÍ@ê\>LÌÍ>LÌÍ ?O\) &?uÂSimbadNEDCcˆ»Bð¾G055.60+31.86 >e`B@ÑG®>8Qì>™šA\=õÂ=ÌÌÍ@ìzá=áG®=áG®@é™š>\)>\)A õÃ>™™š>™™š@ªáH>W
+=>W
+=AÎõÃ?Y™š?Y™šAZff?\)?\) 	?ƒ×
+ 5?ŒÌÍSimbadNEDC‚NOB ’‰G055.97-34.88 =ýó¶@­¸>æff>½p¤@\(ö=¸Qì=¸Qì@È  >½p¤>½p¤@°  >½p¤>½p¤@
+==£×
+=£×
+?Å¸=\)=\)@¯
+=>£×
+>£×
+@€Qì>aG®>aG® >×
+= ?\SimbadNEDC¡éØ?·1G056.81+36.31 =Â\@~¸R=£×
+=\)@£×
+=#×
+=#×
+@Ÿ\)=LÌÍ=LÌÍ@š\=\)=\)@ŠáH=õÂ=õÂ@ff=uÂ=uÂAÌÍ>ž¸R>ž¸R@¡™š>.{>.{ ?G® c?ŒÌÍSimbadNEDC­‹BR½G056.96-55.07 >äÝ/Aë…>€  >€  As®>\)>\)@ô(ö=õÂ=õÂ@ò\>¸>¸AiÂ>Ç®>Ç®A?®>™™š>™™šBp¤?À  ?À  Aû×
+?”zá?”zá ?hõÃ 0?p£×SimbadNEDCªk¶Á:ûG057.26-45.35 >ËC–AR¸R?#×
+?&ffA”áH>”zá>\)A&=q>¨õÃ>¨õÃA×
+>áG®>áG®AÊ\?:áH?:áHAL  >Š=q>Š=qB¥ž¸@„zá@„záB&ÌÍ?à  ?à   ?hõÃ  ?€  SimbadNEDC¦xÅÀtÐG058.28+18.59 =…¸@n{=uÂ=\)@‘G®>LÌÍ=LÌÍ@ Qì=#×
+=#×
+@›×
+=LÌÍ=LÌÍ@ £×=#×
+=#×
+?Ôzá<£×
+<£×
+@€õÃ=áG®=áG®@S×
+=£×
+=£×
+ ?G® A?ˆõÃSimbadNEDCŠ$JAóy>G062.42-46.41 =º^5@P£×>Ç®>™š@7®>¸=õÂ@ˆ  =£×
+=£×
+@ˆõÃ=õÂ=õÂ?µÂ=LÌÍ=LÌÍ?“33=#×
+=#×
+@)™š>¸>¸@õÃ=ÌÌÍ=ÌÌÍ >Ñë… ?\)SimbadNEDC§û–¿Ï°G067.23+67.46 >/ AÂ>.{>8QìA'
+==£×
+=õÂA\>¸>¸@ôÌÍ>.{>.{A/\)>#×
+>#×
+@ÜÌÍ>Š=q>Š=qAó
+=?!G®?!G®A˜áH?ÌÍ?ÌÍ ?ƒ×
+ G?Š=qSimbadNEDCX~/BVmG071.61+29.79 > Äœ@‡®?B\?
+=@ª=q?\>Ü(ö@œ(ö>¸Qì>¸Qì@Â>×
+=>×
+=@(ö>™š>™š@ÌÍ=õÂ=õÂ@’\>Ç®>Ç®@„(ö>£×
+>£×
+ ?s33 ?†ffSimbadNEDC…fÅB4¶®G072.63+41.46 >ixÕA+\)>×
+=>Ç®A„{>…¸>€  A33>€  >€  A\>™™š>™™šAiÂ?   ?   A'
+=>”zá>”záB4£×@¸R@¸RB33?Ê=q?Ê=q 	?xQì -?xQìSimbadNEDCzéB:Ú G072.80-18.72 >n˜@ª\>.{=õÂA  =áG®=£×
+@½Â=¸Qì=¸Qì@¿®=õÂ=õÂ@¶{>B\>B\@\)>¸>¸AU¸?
+=?
+=A™š>Â\>Â\ ?n{ -?n{SimbadNEDC LA¹ 'G073.96-27.82 >n—A6\>æff>Â\A‰…>\)>uÂAzá>uÂ>uÂA*¸R>ð£×>ð£×A†ÌÍ>¸Qì>¸QìA   >LÌÍ>LÌÍB_(ö?æff?æffB
+=?fff?fff 	?p£× ?G®SimbadNEDC¤4¼A‹xG080.38-33.20 =Û"Ñ@j=q=\)=uÂ@u¸<õÂ<õÂ@­¸=\)=\)@š=q=£×
+=£×
+@(ö=#×
+=#×
+?ºáH<£×
+<£×
+@›×
+=õÂ=õÂ@P£×=uÂ=uÂ ?xQì c?“33SimbadNEDC¨?OA‹!–G080.99-50.90 >™™š@Ó×
+>£×
+>k…AÌÍ>LÌÍ>.{@äÌÍ>€  >€  @Ýp¤>uÂ>uÂA×
+>×
+=>×
+=@±™š>B\>B\Aº=q?ÌÌÍ?ÌÌÍAráH?¸R?¸R ?p£× ?˜QìSimbadNEDC­ðË@iG®G083.28-31.03 >Òñª@õÂ>ð£×>Â\AG®>™™š>€  @ç®>ž¸R>ž¸R@à£×>®{>®{A<zá>ÌÌÍ>ÌÌÍAõÃ>.{>.{AôáH?ó33?ó33Aª{?Tzá?Tzá ?•Â ?À  SimbadNEDC¨$A¤ôTG085.99+26.71 >7KÇ@S×
+?.{?ë…@~{>ð£×>Ñë…@’=q>…¸>…¸@Qì>”zá>”zá?èõÃ>\)>\)?Ð£×=õÂ=õÂ@l(ö>Ñë…>Ñë…@S×
+>³33>³33 ?(õÃ ?—
+=SimbadNEDC‰{QBdÀƒG086.45+15.29*>…¸@·®>¨õÃ>€  AÌÍ>W
+=>8Qì@äzá>”zá>”zá@Ú=q>Â\>Â\A6{>Ñë…>Ñë…@Îff=ÌÌÍ=ÌÌÍAÜ{?³33?³33AŒáH>×
+=>×
+= ?ŒÌÍ ?”záSimbadNEDC“HyBXžG092.73+73.46 >ixÕ@ÅÂ>£×
+>\)A+…>”zá>…¸@ä(ö>B\>B\@âáH>W
+=>W
+=@÷®>ž¸R>ž¸R@·
+=>™š>™šA˜  ?Š=q?Š=qA.ff>Ñë…>Ñë… 	?•Â ?¡G®SimbadNEDCKÌB$UG093.91+34.90 =¥ãT@•Â?5Â?   @¯®>áG®>¨õÃ@«…?O\)?O\)@©ë…>W
+=>W
+=@[…>uÂ>uÂ@7
+=>B\>B\@ò=q?(õÃ?(õÃ@®¸R>¸Qì>¸Qì ?Y™š ,?ˆõÃSimbadNEDC`B€õG096.87+24.21 >™™š@¯
+=@™š?±ë…@ÈõÃ?Š=q?c×
+@¡™š?
+=q?
+=q@Ÿ®?™š?™š@B\>£×
+>£×
+@)™š>k…>k…@Ù™š?xQì?xQì@¾{?=p¤?=p¤ ?!G® ?s33SimbadNEDCŽ	¾B„Ã£G097.73+38.11 >/ @†¸R>W
+=>LÌÍ@Û×
+>.{>#×
+@Ì(ö=áG®=áG®@Â=q>\)>\)@§®>¸>¸@qG®=LÌÍ=LÌÍAD(ö>Ü(ö>Ü(öAp¤>B\>B\ 	?€   ?ˆõÃSimbadNEDCxüÚB„m„G098.95+24.86 =¾vÉ@P  >³33>™š@?\)>\)=\)@Ÿ
+=>LÌÍ>LÌÍ@ž{>\)>\)?£×
+=uÂ=uÂ?\(ö<õÂ<õÂ@1G®>B\>B\?ï\)=áG®=áG® ?8Qì ?=p¤SimbadNEDCºBˆ·€G106.73-83.22 >•@¥Â>¸Qì>”záAõÃ>…¸>aG®@Öff>€  >€  @ÐõÃ>\)>\)Azá>™™š>™™š@µÂ=ÌÌÍ=ÌÌÍA•¸?¢\?¢\ALÌÍ?   ?    ?\ ?G®SimbadNEDA-ƒÁ¤ßG107.11+65.31 >•@èQì?@  ?+…@Þ{>™™š>\)@Ôzá>úáH>úáH@ØõÃ?0£×?0£×A Qì?\)?\)Azá>×
+=>×
+=AÜff@C×
+@C×
+AÆ£×@Qì@Qì ?LÌÍ ?€  SimbadNEDCK-6BJCG113.82+44.35 >fff@w®>£×
+>W
+=@¶ff>\)>aG®@©G®>™™š>™™š@­Â>®{>®{@n¸R>aG®>aG®@HõÃ>\)>\)@þff?.{?.{@ÕÂ>æff>æff ?#×
+ ?c×
+SimbadNEDCU…›BŽ“G124.21-36.48 >Iº^@¹ë…?ë…?¸R@ùë…>”zá>¨õÃ@˜õÃ=áG®=áG®@¹ë…>#×
+>#×
+@xõÃ>\)>\)@áH=uÂ=uÂ@ý¸>®{>®{@ž{>#×
+>#×
+ 	?O\) ?p¤SimbadNEDA`7µAÒþ‘G125.70+53.85 >šŸ¾@ØõÃ?0£×?&ffA=q>Ü(ö>Ü(ö@ÚáH>áG®>áG®@ß®?zá?zá@Þ{>Ç®>Ç®@Â>\)>\)A\?ç®?ç®A@Qì?333?333 ?uÂ ?“33SimbadNEDC=;B|ÆG139.19+56.35 >¤Ý/@íp¤@µÂ?×
+=A#®?µÂ?LÌÍ@Ã33?ë…?ë…@Ê=q?0£×?0£×@Ï
+=?\)?\)@®ff>Â\>Â\Ap¤?ê=q?ê=qAZ\?ˆõÃ?ˆõÃ >Ç® ?!G®SimbadNEDC/Bj"œG149.73+34.69 >:^5@ã×
+?5Â?!G®A:áH?ë…?ÌÍ@ìzá>×
+=>×
+=@äÌÍ?\?\A\)>¸Qì>¸Qì@¾¸R>™š>™šA°ÌÍ?å¸?å¸AyÂ?O\)?O\) ?
+= ?8QìSimbadNEDBÿ|BƒÁ±G157.43+30.33 >æff@Ç\)?¸>×
+=A=q>³33>ž¸R@ñG®?zá?zá@áë…?
+=?
+=A (ö>Š=q>Š=q@ÄÌÍ>k…>k…A¨ff?ÈõÃ?ÈõÃA‚{?‘ë…?‘ë… ?€   ?£×SimbadNEDBêq BnÆÂG159.85-73.47 >Rñª@×\)?#×
+?333A{>Ñë…>ð£×@¼zá?ë…?ë…@º=q?Tzá?Tzá@Û…>Š=q>Š=q@™™š=áG®=áG®A33?fff?fffA4£×>½p¤>½p¤ 
+?‹… "?‹…SimbadNEDA·ã ÁY=qG164.18-38.89*=—P@¢=q>æff>aG®@É™š>\)>™š@Ð£×>™š>™š@Ð  >8Qì>8Qì@…¸>B\>B\@S33>¸>¸AG®>ð£×>ð£×@àQì>®{>®{ ?333 B?G®SimbadNEDB2çAXõÃG166.13+43.39 >^5?@Û…>õÂ>Ñë…A
+áH>aG®>B\@Ñë…>W
+=>W
+=@É™š>”zá>”zá@Ú\>aG®>aG®@…Â=áG®=áG®A‚õÃ?\?\A Qì>½p¤>½p¤ ?B\ ?TzáSimbadNEDC~"BNÅmG167.65+17.64*>2-@¼(ö>ÌÌÍ>™™šA  >…¸>W
+=@ÈõÃ>LÌÍ>LÌÍ@À£×>k…>k…@Í¸>€  >€  @—®=áG®=áG®A]p¤?B\?B\A#×
+>¸Qì>¸Qì ?E¸ ?xQìSimbadNEDBÇëB?4nG171.94-40.65 >Š=qAEG®@\ÌÍ@®ApQì?uÂ?@  A£×>æff>æffAë…>úáH>úáHA3\)>¸Qì>¸Qì@ê=q>8Qì>8QìBõÃ@ë…@ë…A«Â>…¸>…¸ >®{ ?
+=qSimbadNEDB@ì=A‡G180.24+21.04 ?Æ¨AIG®?®?.{A»Â>¸Qì?   A!ë…>€  >€  A\)>Š=q>Š=qA¾zá?G®?G®A™š>ð£×>ð£×B‘zá@g
+=@g
+=BZ33@
+=@
+= ?s33 !?Ê=qSimbadNEDBÚÁËBÇG182.44-28.29 =´9X@ÝÂ>.{>8QìAG®=áG®>LÌÍ@ðõÃ=õÂ=õÂ@ä(ö>£×
+>£×
+ABáH=áG®=áG®@–{<#×
+<#×
+B33>áG®>áG®AN=q=£×
+=£×
+ ?}p¤ A?ŒÌÍSimbadNEDB}iDA':ûG182.63+55.82 >Rñª@˜£×>…¸>#×
+@Ü(ö>™š=ÌÌÍ@¶¸R=áG®=áG®@±G®>™š>™š@Áë…>LÌÍ>LÌÍ@K…=\)=\)A^ff?&ff?&ff@èõÃ>€  >€   ?xQì (?«…SimbadNEDC<ÓB	RG186.39+37.25 >bNAzá?˜Qì?c×
+AG×
+?(ö?¸AQì?³33?³33@ì(ö?Ê=q?Ê=qA9Â?™š?™šAQì?   ?   Aö£×@#×
+@#×
+A±ë…?ÁG®?ÁG® ?ë… ?W
+=SimbadNEDC»ÍBX“G195.62+44.05 >—
+=@º=q?8Qì>úáHAQì>úáH>¸Qì@¨Qì>¸>¸@¨Qì>™š>™š@š=q>W
+=>W
+=@ƒ33>™š>™šA$ÌÍ?zá?záAQì>Ü(ö>Ü(ö ?xQì  ?‡®SimbadNEDCðAóåþG195.77-24.30 >Oß;@Õp¤>£×
+>aG®A2=q>uÂ>#×
+@Ù™š>8Qì>8Qì@ÚáH>W
+=>W
+=@Þff>uÂ>uÂ@ºáH>B\>B\A‹™š?ƒ×
+?ƒ×
+Aj¸R?O\)?O\) ?ƒ×
+ /?¡G®SimbadNEDB“Â@=IRG218.85+35.50 >333@w
+=>æff>Ñë…@‰™š>LÌÍ>B\@\)>ž¸R>ž¸R@…p¤?
+=q?
+=q@C33>.{>.{?Ü(ö=uÂ=uÂ@Ð£×>ë…>ë…@k…>8Qì>8Qì >áG® ?‘ë…SimbadNEDC	LJA/K^G225.92-19.99 >ë…A1¸@N¸R@\)A¯®@7
+=@­p¤@àQì>¨õÃ>¨õÃ@î¸R>×
+=>×
+=A´Qì?ØQì?ØQìA„Qì?ž¸R?ž¸RBc…@°  @°  B&p¤@J=q@J=q ?fff "?ˆõÃSimbadNEDB´  Á üPG226.17-21.91 =ÊÀƒ@“…>£×
+>k…@£33=áG®=¸Qì@›33=áG®=áG®@”ÌÍ>\)>\)@S×
+=õÂ=õÂ@Qì=\)=\)@Þff>®{>®{@Ÿ®>LÌÍ>LÌÍ ?p£× .?}p¤SimbadNEDB°†%Á¨—G226.24+76.76 >n˜@ÈõÃ=õÂ=¸QìAp¤=uÂ=LÌÍ@àõÃ=uÂ=uÂ@Üzá=£×
+=£×
+@Ú\=ÌÌÍ=ÌÌÍ@P£×<£×
+<£×
+A
+=>³33>³33Aff=\)=\) 
+?Ž{ :?§®SimbadNEDC2ÏóA»šG228.15+75.19 ?…@þ{?uÂ?™šAX£×?G®?ë…A\)?0£×?0£×A33?G®?G®Au™š?G®?G®A=q>×
+=>×
+=B/ff@[…@[…BõÃ?ÕÂ?ÕÂ ?ˆõÃ ?”záSimbadNEDC1c£A³8»G228.49+53.12 >n˜@¥¸>³33>×
+=@»×
+>.{>W
+=@©G®>.{>.{@±G®>½p¤>½p¤@˜Qì>#×
+>#×
+?÷
+=<õÂ<õÂA#®>ë…>ë…@…¸=áG®=áG® ?p£× ?¡G®SimbadNEDC‚ AL½¥G229.21-17.24 >/ @¨Qì?ë…?˜Qì@Ñë…?W
+=?.{@·
+=>\)>\)@´ÌÍ>³33>³33@9™š>.{>.{@¸=uÂ=uÂ@Ìzá?¸?¸@¤zá>…¸>…¸ ?@   ?O\)SimbadNEDB¼#{Á¯zxG229.94+15.29 =\)@àQì>€  >…¸A(ö=õÂ>¸@Þ{>™š>™š@ÙG®>\)>\)@³×
+=¸Qì=¸Qì@333<£×
+<£×
+Aj¸R>³33>³33@é™š=áG®=áG® ?•Â £?·
+=SimbadNEDBø»qÀð¤©G236.95-26.67 >P@½¸>£×
+>¨õÃ@Þ¸R>\)>\)@¹G®>¸>¸@²=q>.{>.{@}p¤>\)>\)@áH=LÌÍ=LÌÍA33>Ü(ö>Ü(ö@³…>LÌÍ>LÌÍ 
+?Tzá 4?J=qSimbadNEDB­ÆÂÁÿ4G241.74-30.88 >ŠÀƒ@¹™š>×
+=>¨õÃ@òáH>€  >aG®@ß\)>³33>³33@Ø  ?¸?¸A=q>\)>\)@“×
+=áG®=áG®AŸ…?“33?“33A5¸?¸?¸ ?hõÃ ?ƒ×
+SimbadNEDB¦s‚Â“G241.77-24.00 >V@R\=uÂ=uÂ@|ÌÍ=#×
+=#×
+@‘™š=uÂ=uÂ@Â=õÂ=õÂ@—®>\)>\)@ff=\)=\)A=q>£×
+>£×
+@Â>™š>™š 	?W
+= 0?G®SimbadNEDB¶öSÂ*0G241.97+14.85 >-V@„(ö?#×
+>Â\@ã33?0£×>æff@Ã×
+=ÌÌÍ=ÌÌÍ@Ç\)=áG®=áG®@œ(ö>¨õÃ>¨õÃ@E¸>8Qì>8QìA(£×?Që…?Që…@Õ¸>ð£×>ð£× ?“33 !?ÁG®SimbadNEDCzÇÁ‹ÿ.G244.34-32.13 >‘hs@Þ{?
+=q?   A7\)>Ç®>Â\@à£×>”zá>”zá@è  >Ñë…>Ñë…A$ÌÍ>Ç®>Ç®@ÝÂ>W
+=>W
+=AÇÂ?Þ¸R?Þ¸RA‡33?‡®?‡® ?fff ?p£×SimbadNEDB¤p¤ÂÇ+G244.69+32.49 >¬@lÌÍ>ž¸R>B\@¡G®>.{=õÂ@¦ff>…¸>…¸@ Qì>”zá>”zá@K…>¸>¸@õÃ=£×
+=£×
+@ÑG®>ë…>ë…@¸>™™š>™™š ?!G® ?333SimbadNEDC\jÁ
+>BG247.17-23.32 >¥ã@JáH?
+=q>³33@…¸>½p¤>…¸@Žff>uÂ>uÂ@”ÌÍ>Â\>Â\@\)>\)>\)?ç®=£×
+=£×
+@šáH>ÌÌÍ>ÌÌÍ@`£×>€  >€   ?G® ?G®SimbadNEDB¼8»ÂKxG249.87-39.86 >(õÃ@7
+=?\)>ÌÌÍ@€£×>¸Qì>\)@~{>aG®>aG®@z=q>¨õÃ>¨õÃ@¸=ÌÌÍ=ÌÌÍ?ÁG®=#×
+=#×
+@z=q>uÂ>uÂ@!ë…=ÌÌÍ=ÌÌÍ ?\ ?W
+=SimbadNEDBãñÂ2 ªG250.90-36.25 >LÌÍ@«…?\>¸Qì@×®>Š=q>LÌÍ@¿\)>k…>k…@¿
+=>¸Qì>¸Qì@¸>8Qì>8Qì@;…=£×
+=£×
+A2áH?(õÃ?(õÃ@Õp¤>ž¸R>ž¸R ?Tzá ?TzáSimbadNEDB›-ÓÂ5YeG252.96-56.05 =™™š@e¸=#×
+=LÌÍ@y™š<õÂ<õÂ@ƒ33<õÂ<õÂ@‹×
+=£×
+=£×
+@vff=#×
+=#×
+?¾¸R<#×
+<#×
+@íp¤=ÌÌÍ=ÌÌÍ@8Qì<#×
+<#×
+ ?™š …?E¸SimbadNEDBFÂ1çG253.47-33.72 >C•@£×>áG®>õÂ@¶¸R>™™š>¨õÃ@¾¸R>Â\>Â\@¸Qì?¸?¸@c×
+>8Qì>8Qì@¸R=áG®=áG®A	p¤?333?333@¿\)>Ü(ö>Ü(ö ?€   ?ˆõÃSimbadNEDB¢ï\Â=–G256.45-65.71 >aG®@­p¤?c×
+?B\@åÂ?ë…?
+=q@ž{>B\>B\@·\)>¨õÃ>¨õÃ@·®>€  >€  @hQì=õÂ=õÂA?\)?8Qì?8Qì@ñG®>Â\>Â\ ?G® ?•ÂSimbadNEDBêÎÂ'(G257.34-22.18 >Oß;@L(ö?aG®?\@Qì?Që…?\?ÕÂ?«…?«…?³33?ª=q?ª=q@0£×>®{>®{@…>ž¸R>ž¸R@ÂáH?‡®?‡®@«×
+?p£×?p£× >³33 ?Që…SimbadNEDBÆ³ÐÂAùÛG260.03-63.44 >‘hs@äÌÍ?:áH?:áHA zá>¨õÃ>”zá@ÍÂ>8Qì>8Qì@ØQì>\)>\)AHÌÍ>…¸>…¸@ó33<#×
+<#×
+Aç
+=?£×?£×AŒ=q>…¸>…¸ ?8Qì ?•ÂSimbadNEDB:áÂ1—G262.25-35.36 >—
+=@ÒáH?fff?333A,ÌÍ?G®?+…@üÌÍ>B\>B\@û…>LÌÍ>LÌÍ@Þ{>½p¤>½p¤@¼zá>\)>\)A‰Â?ÌÌÍ?ÌÌÍAj\?¡G®?¡G® ?.{ ?s33SimbadNEDBžXEÂZþG262.71-40.91 >×
+=A\@
+=?Ë…AD£×?G®?0£×AG®>Ç®>Ç®A!G®?.{?.{AMp¤>áG®>áG®@Ö{>#×
+>#×
+Bff@zá@záA™\)=ÌÌÍ=ÌÌÍ >áG® ?@  SimbadNEDB‹?cÂY<6G263.16-23.41 >hr°@â=q>³33>\)A3…>aG®>8Qì@åÂ>#×
+>#×
+@íÂ>…¸>…¸A(ÌÍ>®{>®{@¯®=õÂ=õÂAÚ(ö?£×
+?£×
+AbáH?
+=q?
+=q ?xQì -?‡®SimbadNEDBÇx_ÂWö”G263.66-22.53 >'ïžA	p¤?&ff>æffA(Qì>”zá>W
+=@ã33>8Qì>8Qì@ç
+=>\)>\)@Ñ™š>k…>k…@‚\=áG®=áG®A†£×?aG®?aG®A'®>ð£×>ð£× 
+?†ff "?\)SimbadNEDBÊÅÖÂXØâG266.03-21.25 >—PAHõÃ>®{>®{A®Qì>aG®>k…A)¸>…¸>…¸A*\>®{>®{A®Qì?.{?.{Ar\>Â\>Â\B‚ë…@9™š@9™šB633?ã×
+?ã×
+ 
+?ƒ×
+ ;?¨õÃSimbadNEDBÑA‰Â_×$G269.31-49.87 =®{@)™š>Ñë…>k…@L(ö>…¸>#×
+@š=q>€  >€  @Â>Ç®>Ç®?Ï\)=£×
+=£×
+?ˆõÃ<õÂ<õÂ@UÂ>€  >€  @ÌÍ>\)>\) ?:áH "?TzáSimbadNEDBP§‡Â^ÝçG271.19-30.96 >½p¤A{?.{?®ALÌÍ>úáH?¸A…>uÂ>uÂAÌÍ>ë…>ë…AšQì?+…?+…A
+=<õÂ<õÂBP™š@Mp¤@Mp¤A±G®>úáH>úáH >½p¤ ?
+=qSimbadNEDB®¡–ÂxY1G271.50-56.55 >™™šA¸@
+=?ÁG®A£×?@  ?(ö@ã33?5Â?5Â@à£×?hõÃ?hõÃA
+=?¸R?¸R@¥Â>³33>³33AÆÌÍ?ü(ö?ü(öA‚ff?šáH?šáH ?ë… $?TzáSimbadNEDB%Ÿ¤ÂT"‚G272.10-40.15 =q©ü@Ã…=¸Qì=£×
+@ùG®=LÌÍ=LÌÍ@Ë33=#×
+=#×
+@Ã33=#×
+=#×
+@ £×=£×
+=£×
+@€Qì=uÂ=uÂAIë…>”zá>”záA!™š>W
+=>W
+= !?c×
+t?s33SimbadNEDB‡¨KÂu³G277.75-51.73 >áG®A\)?:áH?
+=Ag×
+?
+=q>ð£×@ù™š>k…>k…@÷®>€  >€  A\>Â\>Â\A33>”zá>”záAÉp¤?ÁG®?ÁG®A¯®?šáH?šáH ?G® ?¬ÌÍSimbadNEDB.b‚ÂkÚºG278.60+39.17 >/Aë…?^¸R?O\)AV{?\)?ÌÍA Qì>³33>³33@ÿ\)>ë…>ë…A(zá>Â\>Â\@ð  >…¸>…¸AÑ¸?p¤?p¤A•¸?LÌÍ?LÌÍ ?n{ ?…¸SimbadNEDC- ¸ÁŸZQG280.19+47.81 >¾w@ÐõÃ?Ù™š?‹…@î{?(ö>ð£×@ß®>…¸>…¸@Þ{>£×
+>£×
+@HQì>#×
+>#×
+@   =uÂ=uÂ@ï\)?ÌÍ?ÌÍ@¿®>Š=q>Š=q ?(õÃ ?c×
+SimbadNEDC1t{ÁEbG282.49+65.17 =²-@¨  >aG®>LÌÍ@Ôzá=áG®=ÌÌÍ@±G®>\)>\)@­¸>8Qì>8Qì@>{=LÌÍ=LÌÍ@(ö<£×
+<£×
+@Ú=q>8Qì>8Qì@ £×=áG®=áG® ?†ff ?\)SimbadNEDC8iK@i½¥G283.16-22.93 >æff@êáH?‘ë…?xQìA(zá?&ff?(ö@ê=q>¸Qì>¸Qì@ð£×>úáH>úáHA
+=>Ç®>Ç®@Ï
+=>Š=q>Š=qAÓÂ?¦ff?¦ffA‰Â?E¸?E¸ ?}p¤ 	?‚\SimbadNEDBß`4Â?±G284.46+52.43 >áÊÁA*{?ÌÍ>õÂA‡…>®{>ž¸RA®>\)>\)AG®>W
+=>W
+=A¢Qì>Ü(ö>Ü(öAA¸>Â\>Â\B}áH?Ã×
+?Ã×
+B¸R?ŒÌÍ?ŒÌÍ ?záH ;?ÁG®SimbadNEDC5–”ÁöýG284.99-23.70*>Ç®A!™š?ÈõÃ?p¤An{?Tzá?333@ðõÃ?®?®@ó…?G®?G®AŒ{?Tzá?TzáA™š>aG®>aG®B$…@8õÃ@8õÃA¹\)?‡®?‡® >¸Qì ?¸RSimbadNEDBÝœ]Â’éüG285.63-17.24*>³33@ÒáH?€  ?•ÂA33?ë…?G®@¸õÃ?!G®?!G®@·®?.{?.{@~¸R>ÌÌÍ>ÌÌÍ@Vff>™™š>™™š@ù™š?‹…?‹…@Ñë…?Y™š?Y™š ?\(ö ?\(öSimbadNEDCÑÂŽmwG286.58-31.25 >W
+=@°£×>æff>…¸@åÂ>uÂ>™š@¼(ö>™š>™š@»×
+>B\>B\@‚\>¸>¸@Dzá=£×
+=£×
+Azá>áG®>áG®@à  >”zá>”zá ?G® ?šáHSimbadNEDB¥¯OÂ–SëG286.99+32.91 >Ç®AC33?B\?333A°£×?¸R?ë…A)ë…?0£×?0£×A'…?:áH?:áHAžáH?E¸?E¸Az{?®?®B{  @˜£×@˜£×BE…@\ÌÍ@\ÌÍ ?ƒ×
+ ?‹…SimbadNEDC1¶¼Áà—G288.61-37.65 >J@€  ?333>õÂ@ë33?+…?   @EÂ?n{?n{@Qì?ŒÌÍ?ŒÌÍ@¨Qì>£×
+>£×
+@fff>B\>B\ALQì?€  ?€  A  ?(ö?(ö ?ƒ×
+ !?‡®SimbadNEDBh„gÂ”œG292.51+21.98 >™™šA zá>úáH>áG®A6=q>”zá>Š=q@ðõÃ?aG®?aG®@ç
+=?   ?   @Í¸>¸Qì>¸Qì@´ÌÍ>™™š>™™šA…?   ?   AaG®?‡®?‡® ?0£× !?†ffSimbadNEDC4?«ÂqÄG294.66-37.02 >ŒIº@æff?
+=>Ç®A{>¸Qì>…¸@ü(ö>™™š>™™š@ù™š>Ç®>Ç®A ÌÍ>áG®>áG®@½Â>\)>\)A²\@ £×@ £×Aƒ®?¯\)?¯\) ?xQì ?‹…SimbadNEDB8-Â›ÄÃG304.67-31.66 >E¡Ë@…¸?ŒÌÍ?J=q@¬(ö?B\?(ö@¤ÌÍ?0£×?0£×@§
+=?uÂ?uÂ@=q>ë…>ë…@	™š>Ü(ö>Ü(ö@‘G®?ˆõÃ?ˆõÃ@€£×?€  ?€   ?+… ?fffSimbadNEDC±i>ÂªmCG304.84-41.42 >Ñë…Azá?#×
+?™šA6\>Â\>³33A…?§®?§®A®?œ(ö?œ(öA#\)>…¸>…¸@äzá>³33>³33A¾{?”zá?”záA„zá?hõÃ?hõÃ ?s33 ?s33SimbadNED@âÁUÂ—=qG306.68+61.06 =®{@{…>¸>ž¸R@ õÃ=\)>.{@   =ÌÌÍ=ÌÌÍ@˜õÃ>™š>™š@{…=\)=\)@zá<#×
+<#×
+AÂ>B\>B\@Â=LÌÍ=LÌÍ ?‚\ ?‚\SimbadNEDCB¬¹¿àÎpG306.80+58.60 =®{@“33>…¸>#×
+@º=q>\)=¸Qì@´zá=áG®=áG®@²\>™š>™š@Ž¸R=\)=\)@'
+==#×
+=#×
+A)ë…>aG®>aG®@Ç\)=ÌÌÍ=ÌÌÍ ?záH H?…¸SimbadNEDCBáÀ†ƒG308.32-20.23*>õÂA	Â?œ(ö?záHA(Qì?ë…>õÂA33?W
+=?W
+=@ìÌÍ?333?333AŠzá?‘ë…?‘ë…A&=q>Ü(ö>Ü(öB‡úá@ÿ\)@ÿ\)B#™š@r\@r\ ?(õÃ ?(õÃSimbadNEDCe–fÂ£ºG313.36+61.11 >;dZ@û×
+=ÌÌÍ=¸QìA(zá=\)=uÂA	™š=£×
+=£×
+A(ö=áG®=áG®AM¸>¸>¸@¯
+=>\)>\)Bp¤?.{?.{A¸>¸>¸ 	?záH P?G®SimbadNEDCEàv¿¬‘ÑG313.87-17.10 >¬A×
+>€  >k…A,zá>¸>¸AáH>™š>™šAff>uÂ>uÂA1™š>¨õÃ>¨õÃ@²=q>™š>™šAþ¸R?ÌÌÍ?ÌÌÍA~\?E¸?E¸ ?hõÃ =?hõÃSimbadNEDCpaÂ—†%G318.13-29.57 >^5?@²áH?#×
+?ë…@íÂ>ÌÌÍ>Â\@¾¸R?(õÃ?(õÃ@¥p¤?n{?n{@ìzá?\)?\)@ŒÌÍ>”zá>”záA°ÌÍ@Dzá@DzáARff?ÕÂ?ÕÂ ?Tzá ?Ž{SimbadNEDC”f«Â˜Ò G321.96-47.97 =Àƒ@|ÌÍ>”zá>k…@š\>.{>\)@“33=áG®=áG®@Â>\)>\)@Fff=¸Qì=¸Qì@¸=LÌÍ=LÌÍ@ÐQì>k…>k…@¸>™š>™š ?W
+= 4?\)SimbadNEDC«?Â€ÖG324.49-44.97 =Â\@EÂ>ÌÌÍ>B\@^{>LÌÍ=ÌÌÍ@‚\=õÂ=õÂ@…¸>8Qì>8Qì?ìÌÍ=£×
+=£×
+?¡G®=#×
+=#×
+@]p¤>LÌÍ>LÌÍ@
+==áG®=áG® 
+?}p¤ %?Š=qSimbadNEDC§DtÂ‚i†G332.23-46.36 =È´9@¢áH>™š=ÌÌÍ@áë…=£×
+=uÂ@Ä(ö=¸Qì=¸Qì@¾ff=õÂ=õÂ@–¸R=áG®=áG®@EÂ=uÂ=uÂA5ë…>®{>®{@ï\)>LÌÍ>LÌÍ ?…¸ f?Š=qSimbadNEDC¥:‰ÂoÉïG332.88-19.28 >‡+@Ç
+=>Â\>¨õÃ@÷®>W
+=>B\@À£×?E¸?E¸@¯\)?‹…?‹…@‘™š>B\>B\@EÂ=áG®=áG®A0õÃ?Që…?Që…@ðQì?   ?    >ð£× ?záSimbadNEDCˆ«hÂuÍ¹G335.59-46.46 =›¥ã@aë…?=p¤?\)@“…?
+=q>áG®@…p¤?™™š?™™š@|ÌÍ?®{?®{@†{>£×
+>£×
+@aë…>€  >€  A"{?p£×?p£×AÌÍ?@  ?@   ?k… ?k…SimbadNEDC¤FÂgg8G336.59-55.44 =Æ§ð@që…?5Â?¸@œ(ö>ë…>¸Qì@–{>uÂ>uÂ@\)>…¸>…¸@!ë…=ÌÌÍ=ÌÌÍ@\=LÌÍ=LÌÍ@«…>…¸>…¸@Š=q>™š>™š ?†ff ?˜QìSimbadNEDCªÌaÂRá-G337.09-25.97 >…¸@¸  ?   >Ñë…A
+=>®{>™™š@µp¤>aG®>aG®@»…>¸Qì>¸Qì@Ò=q>€  >€  @g
+==uÂ=uÂAeG®?LÌÍ?LÌÍ@û×
+>\)>\) ?\) ?”záSimbadNEDCJ“ÂnG342.31-34.90 >m‘h@Û33?=p¤?¸RA×
+>æff>ÌÌÍ@Ï\)?ˆõÃ?ˆõÃ@Ë33?ª=q?ª=q@”zá>áG®>áG®@hõÃ>³33>³33AR¸R@
+=q@
+=qA%p¤?ÚáH?ÚáH ?
+= ?k…SimbadNEDC˜æ˜Â^_;G347.18-27.35 >r°!A×
+?!G®?:áHA1¸>Ü(ö?   AõÃ>ÌÌÍ>ÌÌÍA\?\?\@´(ö>ž¸R>ž¸R@‘ë…>B\>B\Arff?šáH?šáHAD  ?O\)?O\) ?uÂ ?šáHSimbadNEDC’ÛˆÂKwµG349.46-59.94 >±©üAYp¤?.{?&ffA³
+=>áG®>×
+=A$ÌÍ>aG®>aG®A)™š>ž¸R>ž¸RAØ¸R>Â\>Â\AUë…<õÂ<õÂB­zá@ff@ffB+(ö>Ç®>Ç® ?€   /?‘ë…SimbadNEDC«XÂ2!                                                                                                                        
