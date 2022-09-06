@@ -315,7 +315,7 @@ for inFileName in sys.argv[1:]:
     print("Making rzK image for %s" % (inFileName))
 
     # Parse Ks-band image to figure out size, coords etc.
-    with pyfits.open(sys.argv[1]) as img:
+    with pyfits.open(inFileName) as img:
         d=img[0].data
         wcs=astWCS.WCS(img[0].header, mode = 'pyfits')
     RADeg, decDeg=wcs.getCentreWCSCoords()
