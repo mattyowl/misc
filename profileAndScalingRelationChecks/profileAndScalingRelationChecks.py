@@ -39,9 +39,12 @@ sigma8=0.8
 ns=0.95
 transferFunction="boltzmann_camb"
 cosmoModel=ccl.Cosmology(Omega_c=Om0-Ob0, Omega_b=Ob0, h=0.01*H0, sigma8=sigma8, n_s=ns,
-                         transfer_function=transferFunction)
-M200mDef=ccl.halos.MassDef(200, "matter", c_m_relation = 'Bhattacharya13')
-M200cDef=ccl.halos.MassDef(200, "critical", c_m_relation = 'Bhattacharya13')
+                                transfer_function=transferFunction)
+
+# For CCL-based mass conversions
+M200mDef=ccl.halos.MassDef(200, "matter")
+M200cDef=ccl.halos.MassDef(200, "critical")
+M500cDef=ccl.halos.MassDef(500, "critical")
 
 #------------------------------------------------------------------------------------------------------------
 def calcP(x, P0, c500, alpha, beta, gamma):
@@ -64,7 +67,7 @@ def calcP_B12(x, P0, xc, alpha, beta, gamma):
     return p
 
 #------------------------------------------------------------------------------------------------------------
-def calcP500(z, M500c):
+def calcP500(z, M500c, units = None):
     """Calculate P500, return value in keV cm^-3
     
     """
@@ -73,8 +76,10 @@ def calcP500(z, M500c):
     Hz=Ez*cosmoModel['H0']
     P500z_SI=(3/(8*np.pi))*np.power((500*np.power(6.67e-11, -1/4)*np.power((Hz*1000)/(3.09e16*1e6), 2))/2, 4/3)*(mu/mu_e)*fB*np.power(M500c*1.99e30, 2/3)
     P500z=P500z_SI/(1000*1.6e-19)/(100**3) # keV cm^-3
-    
-    return P500z
+    if units == 'SI':
+        return P500z_SI
+    else:
+        return P500z
 
 #------------------------------------------------------------------------------------------------------------
 def integratedP_to_y0(integratedP, z, M500c):
@@ -333,6 +338,10 @@ x=np.linspace(1e-5, 5.0, 1000)
 # P500 is the average pressure within R500, given in keV cm^-3 (see Appendix of A10)
 #P500=1.65e-3    # keV cm^-3
 P500=calcP500(0, 3e14)
+
+# print("check calcP500 with units == 'SI'")
+# IPython.embed()
+# sys.exit()
 
 # PPP
 P0=6.41

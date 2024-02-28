@@ -326,7 +326,7 @@ for inFileName in sys.argv[1:]:
     sizeArcmin=np.mean(wcs.getFullSizeSkyDeg())*60
     sizePix=max(d.shape)
 
-    jpgFileName=fetchLegacySurveyImage(RADeg, decDeg, sizeArcmin, sizePix, refetch = False)
+    jpgFileName=fetchLegacySurveyImage(RADeg, decDeg, sizeArcmin, sizePix, layer = 'ls-dr10-early-grz', refetch = False)
     p=rzKPlot(img[0].header['OBJNAME'], RADeg, decDeg, jpgFileName, d, wcs, sizeArcmin, "none")
     if p is not None:
         #if catalogPath != "none":
